@@ -35,6 +35,7 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     compile "org.jetbrains.anko:anko-common:$anko_version"
     compile 'com.aloj.progress:download-progress:1.0'
+//    compile 'com.github.mohsen-dl:download-progress:1.0.0'
 }
 repositories {
     mavenCentral()
