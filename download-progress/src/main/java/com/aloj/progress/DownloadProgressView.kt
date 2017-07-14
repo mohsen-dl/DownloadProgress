@@ -48,7 +48,7 @@ class DownloadProgressView : RelativeLayout {
     }
 
     private fun setProgressViews(downloading: Boolean) {
-        progressImage.setImageResource(if (downloading) R.drawable.ic_clear else R.drawable.ic_arrow)
+        progressImage.setImageResource(if (downloading) R.drawable.ic_clear else R.drawable.ic_up_arrow)
         circularProgress.progressStarted = downloading
     }
 
